@@ -13,12 +13,12 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.0",
-    "typescript": "^5.2.0",
-    "vue-tsc": "^1.8.0",
-    "vite": "^5.0.0",
-    "tailwindcss": "^3.4.0",
     "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0"
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.2.0",
+    "vite": "^5.0.0",
+    "vue-tsc": "^3.0.1"
   },
   "packageManager": "yarn@1.22.22+sha256.c17d3797fb9a9115bf375e31bfd30058cac6bc9c3b8807a3d8cb2094794b51ca"
 }
