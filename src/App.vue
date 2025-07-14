@@ -7,7 +7,7 @@
         <div class="flex justify-between items-center py-4">
           <div class="flex items-center space-x-3">
             <img 
-              src="https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/cb/cbf62f2d56f94773b12c6a821238445c.webp" 
+              :src="iconImage" 
               alt="MoviePilot" 
               class="w-10 h-10 rounded-lg"
             />
@@ -37,7 +37,7 @@
           <!-- Left Content -->
           <div class="text-center lg:text-left">
             <img 
-              src="https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/cb/cbf62f2d56f94773b12c6a821238445c.webp" 
+              :src="iconImage" 
               alt="MoviePilot Logo" 
               class="w-20 h-20 mx-auto lg:mx-0 mb-8 rounded-2xl shadow-2xl"
             />
@@ -335,7 +335,7 @@
           <div class="col-span-1 md:col-span-2">
             <div class="flex items-center space-x-3 mb-4">
               <img 
-                src="https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/cb/cbf62f2d56f94773b12c6a821238445c.webp" 
+                :src="iconImage" 
                 alt="MoviePilot" 
                 class="w-8 h-8 rounded-lg"
               />
@@ -389,6 +389,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 // 导入图标
+import iconImage from './assets/icon.png'
 import plexIcon from './assets/plex.png'
 import embyIcon from './assets/emby.png'
 import jellyfinIcon from './assets/jellyfin.png'
@@ -397,26 +398,30 @@ import transmissionIcon from './assets/transmission.png'
 import wechatIcon from './assets/wechat.png'
 import telegramIcon from './assets/telegram.webp'
 import slackIcon from './assets/slack.webp'
+import dashboardImage from './assets/dashboard.png'
+import rankingImage from './assets/ranking.png'
+import pluginImage from './assets/plugin.png'
+import subscribeImage from './assets/subscribe.png'
 
 // 轮播图数据
 const carouselImages = ref([
   {
-    url: "https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/c0/c0ddd870ab344e6a37d46728ffb33bcb.webp",
+    url: rankingImage,
     title: "流行趋势 - 智能推荐",
     description: "基于热度和评分的智能推荐系统，发现最新最热的影视内容"
   },
   {
-    url: "https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/c4/c4017c24b1b821c1a29510d96b190f0f.webp",
+    url: subscribeImage,
     title: "订阅管理 - 自动追剧",
     description: "智能订阅管理，自动追踪剧集更新，永不错过精彩内容"
   },
   {
-    url: "https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/6d/6d5e6f10ddd38cb366d01b24ee66328a.webp",
+    url: pluginImage,
     title: "插件市场 - 丰富生态",
     description: "200+ 官方和社区插件，一键安装，扩展无限可能"
   },
   {
-    url: "https://ai-lumi-prd.oss-us-east-1.aliyuncs.com/17/1798958f9823d5a5ac8f307cf140e48e.webp",
+    url: dashboardImage,
     title: "仪表盘 - 统一管理",
     description: "直观的数据统计和媒体库管理，一目了然掌控全局"
   }
