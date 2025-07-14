@@ -462,12 +462,12 @@ const features = ref([
   },
   {
     title: "智能搜索与订阅",
-    description: "自动搜索和匹配电影、电视剧资源，支持大量资源站点索引，智能订阅管理",
+    description: "自动搜索和匹配电影、电视剧，智能订阅管理",
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />'
   },
   {
     title: "自动下载管理",
-    description: "根据用户设定的规则自动下载影视资源，支持 qBittorrent、Transmission 等主流下载客户端",
+    description: "根据用户设定的规则自动下载资源，支持 qBittorrent、Transmission 等主流下载客户端",
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />'
   },
   {
@@ -482,7 +482,7 @@ const features = ref([
   },
   {
     title: "多样化通知系统",
-    description: "支持微信、Telegram、Slack等多种通知方式，及时了解下载进度和系统状态",
+    description: "支持微信、Telegram、Slack等多种通知方式，及时了解整理进度和系统状态",
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5v-5zM4 19l5-5 5 5M4 7l5 5 5-5" />'
   }
 ])
