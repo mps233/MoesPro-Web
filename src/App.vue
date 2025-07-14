@@ -245,7 +245,13 @@
             :key="index"
             class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center border border-white/20 hover:border-white/40 transition-all duration-300 hover:transform hover:scale-105"
           >
-            <div class="text-4xl mb-3">{{ integration.icon }}</div>
+            <div class="mb-3 flex justify-center">
+              <img 
+                :src="integration.icon" 
+                :alt="integration.name"
+                class="w-12 h-12 object-contain"
+              />
+            </div>
             <h3 class="text-white font-medium">{{ integration.name }}</h3>
           </div>
         </div>
@@ -346,25 +352,26 @@
               </a>
             </div>
           </div>
-          
-          <div>
-            <h4 class="text-white font-semibold mb-4">产品</h4>
-            <ul class="space-y-2">
-              <li><a href="#features" class="text-white/60 hover:text-white transition-colors">功能特性</a></li>
-              <li><a href="#plugins" class="text-white/60 hover:text-white transition-colors">插件系统</a></li>
-              <li><a href="#installation" class="text-white/60 hover:text-white transition-colors">安装指南</a></li>
-              <li><a href="https://wiki.movie-pilot.org/" class="text-white/60 hover:text-white transition-colors">使用文档</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 class="text-white font-semibold mb-4">社区</h4>
-            <ul class="space-y-2">
-              <li><a href="https://github.com/jxxghp/MoviePilot" class="text-white/60 hover:text-white transition-colors">GitHub</a></li>
-              <li><a href="https://wiki.movie-pilot.org/plugin" class="text-white/60 hover:text-white transition-colors">插件市场</a></li>
-              <li><a href="https://wiki.movie-pilot.org/" class="text-white/60 hover:text-white transition-colors">Wiki</a></li>
-              <li><a href="https://github.com/jxxghp/MoviePilot/issues" class="text-white/60 hover:text-white transition-colors">问题反馈</a></li>
-            </ul>
+          <div class="flex justify-start sm:justify-between space-x-16">
+            <div>
+              <h4 class="text-white font-semibold mb-4">产品</h4>
+              <ul class="space-y-2">
+                <li><a href="#features" class="text-white/60 hover:text-white transition-colors">功能特性</a></li>
+                <li><a href="#plugins" class="text-white/60 hover:text-white transition-colors">插件系统</a></li>
+                <li><a href="#installation" class="text-white/60 hover:text-white transition-colors">安装指南</a></li>
+                <li><a href="https://wiki.movie-pilot.org/" class="text-white/60 hover:text-white transition-colors">使用文档</a></li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 class="text-white font-semibold mb-4">社区</h4>
+              <ul class="space-y-2">
+                <li><a href="https://github.com/jxxghp/MoviePilot" class="text-white/60 hover:text-white transition-colors">GitHub</a></li>
+                <li><a href="https://wiki.movie-pilot.org/plugin" class="text-white/60 hover:text-white transition-colors">插件市场</a></li>
+                <li><a href="https://wiki.movie-pilot.org/" class="text-white/60 hover:text-white transition-colors">Wiki</a></li>
+                <li><a href="https://github.com/jxxghp/MoviePilot/issues" class="text-white/60 hover:text-white transition-colors">问题反馈</a></li>
+              </ul>
+            </div>
           </div>
         </div>
         
@@ -380,6 +387,16 @@
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+
+// 导入图标
+import plexIcon from './assets/plex.png'
+import embyIcon from './assets/emby.png'
+import jellyfinIcon from './assets/jellyfin.png'
+import qbittorrentIcon from './assets/qbittorrent.png'
+import transmissionIcon from './assets/transmission.png'
+import wechatIcon from './assets/wechat.png'
+import telegramIcon from './assets/telegram.webp'
+import slackIcon from './assets/slack.webp'
 
 // 轮播图数据
 const carouselImages = ref([
@@ -518,14 +535,14 @@ const deploymentMethods = ref([
 
 // 集成服务数据
 const integrations = ref([
-  { name: "Plex", icon: "🎬" },
-  { name: "Emby", icon: "📺" },
-  { name: "Jellyfin", icon: "🎭" },
-  { name: "qBittorrent", icon: "⬇️" },
-  { name: "Transmission", icon: "📡" },
-  { name: "Wechat", icon: "💬" },
-  { name: "Telegram", icon: "💬" },
-  { name: "Slack", icon: "💬" },
+  { name: "Plex", icon: plexIcon },
+  { name: "Emby", icon: embyIcon },
+  { name: "Jellyfin", icon: jellyfinIcon },
+  { name: "qBittorrent", icon: qbittorrentIcon },
+  { name: "Transmission", icon: transmissionIcon },
+  { name: "Wechat", icon: wechatIcon },
+  { name: "Telegram", icon: telegramIcon },
+  { name: "Slack", icon: slackIcon },
 ])
 
 // 组件挂载时启动自动轮播
