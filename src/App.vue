@@ -11,12 +11,21 @@
               alt="MoviePilot" 
               class="w-10 h-10 rounded-lg"
             />
+<<<<<<< HEAD
             <h1 class="text-2xl font-bold text-white">Moes Pro</h1>
           </div>
           <nav class="hidden md:flex space-x-8">
             <a href="#features" class="text-white/80 hover:text-white transition-colors">功能特性</a>
             <a href="https://status.moes.pro/" class="text-white/80 hover:text-white transition-colors">服务监控</a>
             <a href="#installation" class="text-white/80 hover:text-white transition-colors">立即观看</a>
+=======
+            <h1 class="text-2xl font-bold text-white">MoviePilot</h1>
+          </div>
+          <nav class="hidden md:flex space-x-8">
+            <a href="#features" class="text-white/80 hover:text-white transition-colors">功能特性</a>
+            <a href="#plugins" class="text-white/80 hover:text-white transition-colors">插件系统</a>
+            <a href="#installation" class="text-white/80 hover:text-white transition-colors">安装指南</a>
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
             <a href="https://wiki.movie-pilot.org/" class="text-white/80 hover:text-white transition-colors">文档</a>
             <a href="https://github.com/jxxghp/MoviePilot" class="text-white/80 hover:text-white transition-colors flex items-center">
               <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
@@ -42,6 +51,7 @@
               class="w-20 h-20 mx-auto lg:mx-0 mb-8 rounded-2xl shadow-2xl"
             />
             <h1 class="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+<<<<<<< HEAD
               Moes Pro
               <span class="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent block">
                 智能观影系统
@@ -54,13 +64,31 @@
             <div class="flex flex-row gap-4 justify-center lg:justify-start">
               <a 
                 href="http://fn.moes.pro:8091"
+=======
+              MoviePilot
+              <span class="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent block">
+                媒体库自动化管理
+              </span>
+            </h1>
+            <p class="text-lg lg:text-xl text-white/80 mb-8 leading-relaxed">
+              MoviePilot 是新一代智能化个人媒体库管理工具<br />
+              基于前后端分离设计架构，拥有丰富的插件生态系统
+            </p>
+            <div class="flex flex-row gap-4 justify-center lg:justify-start">
+              <a 
+                href="https://github.com/jxxghp/MoviePilot/releases"
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
                 target="_blank"
                 class="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-semibold rounded-xl hover:bg-gray-100 transition-all duration-200 shadow-xl group"
               >
                 <svg class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
+<<<<<<< HEAD
                 立即观看
+=======
+                立即下载
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
               </a>
               <a 
                 href="https://wiki.movie-pilot.org/"
@@ -162,7 +190,11 @@
             强大的功能特性
           </h2>
           <p class="text-xl text-white/70 max-w-3xl mx-auto">
+<<<<<<< HEAD
             Moes Pro 提供全方位的自助式观影解决方案，从搜索到下载，一站式解决您的所有需求
+=======
+            MoviePilot 提供全方位的媒体库管理解决方案，从搜索到整理，一站式解决您的所有需求
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
           </p>
         </div>
         
@@ -187,11 +219,19 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">
+<<<<<<< HEAD
             🧩 强大的Oneman管理系统
           </h2>
           <p class="text-xl text-white/70 max-w-3xl mx-auto">
             Moes Pro 采用私人专政管理制度，拥有 1000+ 电影和剧集，<br />
             让您可以根据需求自由观影，体验专属的媒体观看方案
+=======
+            🧩 强大的插件生态系统
+          </h2>
+          <p class="text-xl text-white/70 max-w-3xl mx-auto">
+            MoviePilot 采用插件化架构设计，拥有 250+ 官方和社区插件，<br />
+            让您可以根据需求自由组合功能，打造专属的媒体管理方案
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
           </p>
         </div>
 
@@ -218,7 +258,11 @@
             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a1 1 0 01-1-1V9a1 1 0 011-1h1a2 2 0 100-4H4a1 1 0 01-1-1V4a1 1 0 011-1h3a1 1 0 001-1v-1a2 2 0 114 0z" />
             </svg>
+<<<<<<< HEAD
             浏览影视仓库
+=======
+            浏览插件市场
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
             </svg>
@@ -232,10 +276,17 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">
+<<<<<<< HEAD
             完美兼容
           </h2>
           <p class="text-xl text-white/70 max-w-3xl mx-auto">
             支持主流emby类观影软件，网页客户端、甚至TV端，无缝融入您现有的媒体生态系统
+=======
+            完美集成
+          </h2>
+          <p class="text-xl text-white/70 max-w-3xl mx-auto">
+            支持主流媒体服务器、消息通知和下载客户端，无缝融入您现有的媒体生态系统
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
           </p>
         </div>
         
@@ -263,10 +314,17 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-16">
           <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">
+<<<<<<< HEAD
             多种资源
           </h2>
           <p class="text-xl text-white/70 max-w-3xl mx-auto">
             多种资源渠道，总有一种适合您的网络环境。开箱即用，几分钟内即可开始观看
+=======
+            快速安装
+          </h2>
+          <p class="text-xl text-white/70 max-w-3xl mx-auto">
+            多种部署方式，总有一种适合您的环境。开箱即用，几分钟内即可开始使用
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
           </p>
         </div>
 
@@ -283,7 +341,13 @@
               <p class="text-white/70">{{ method.description }}</p>
             </div>
             
+<<<<<<< HEAD
 
+=======
+            <div class="bg-black/50 rounded-xl p-4 font-mono text-sm overflow-x-auto">
+              <code class="text-green-400 whitespace-pre-line">{{ method.command }}</code>
+            </div>
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
           </div>
         </div>
       </div>
@@ -294,10 +358,17 @@
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="bg-gradient-to-r from-purple-600/20 to-blue-600/20 backdrop-blur-md rounded-3xl p-12 border border-white/20">
           <h2 class="text-4xl lg:text-5xl font-bold text-white mb-6">
+<<<<<<< HEAD
             开始您的观影之旅
           </h2>
           <p class="text-xl text-white/80 mb-10 leading-relaxed">
             加入数十名用户的行列，体验最智能的媒体库管理解决方案
+=======
+            开始您的自动化之旅
+          </h2>
+          <p class="text-xl text-white/80 mb-10 leading-relaxed">
+            加入数千名用户的行列，体验最智能的媒体库管理解决方案
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
@@ -307,7 +378,11 @@
               <svg class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
+<<<<<<< HEAD
               立即进入
+=======
+              立即下载
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
             </a>
             <a 
               href="https://wiki.movie-pilot.org/"
@@ -337,10 +412,17 @@
                 alt="MoviePilot" 
                 class="w-8 h-8 rounded-lg"
               />
+<<<<<<< HEAD
               <h3 class="text-xl font-bold text-white">Moes Pro</h3>
             </div>
             <p class="text-white/70 mb-6 max-w-md">
               基于插件化架构的新一代智能观影系统，让您的影视观看体验变得简单高效。
+=======
+              <h3 class="text-xl font-bold text-white">MoviePilot</h3>
+            </div>
+            <p class="text-white/70 mb-6 max-w-md">
+              基于插件化架构的新一代智能媒体库管理工具，让您的影视收藏管理变得简单高效。
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
             </p>
             <div class="flex space-x-4">
               <a href="https://github.com/jxxghp/MoviePilot" class="text-white/60 hover:text-white transition-colors">
@@ -391,8 +473,13 @@ import iconImage from './assets/icon.png'
 import plexIcon from './assets/plex.png'
 import embyIcon from './assets/emby.png'
 import jellyfinIcon from './assets/jellyfin.png'
+<<<<<<< HEAD
 import wangyiIcon from './assets/wangyi.webp'
 import vidhubIcon from './assets/vidhub.png'
+=======
+import qbittorrentIcon from './assets/qbittorrent.png'
+import transmissionIcon from './assets/transmission.png'
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
 import wechatIcon from './assets/wechat.png'
 import telegramIcon from './assets/telegram.webp'
 import slackIcon from './assets/slack.webp'
@@ -459,8 +546,13 @@ const stopAutoSlide = () => {
 // 功能特性数据
 const features = ref([
   {
+<<<<<<< HEAD
     title: "丰富的影视资源",
     description: "拥有 1000+ 电影和剧集，让您可以根据需求自由观影，体验专属的媒体观看方案",
+=======
+    title: "丰富的插件生态",
+    description: "250+ 官方和社区插件，涵盖站点管理、通知推送、媒体处理等各个方面，满足不同用户需求",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a1 1 0 01-1-1V9a1 1 0 011-1h1a2 2 0 100-4H4a1 1 0 01-1-1V4a1 1 0 011-1h3a1 1 0 001-1v-1a2 2 0 114 0z" />'
   },
   {
@@ -470,22 +562,39 @@ const features = ref([
   },
   {
     title: "自动下载管理",
+<<<<<<< HEAD
     description: "根据用户选择的资源自动下载资源，支持选择清晰度以及视频格式",
+=======
+    description: "根据用户设定的规则自动下载资源，支持 qBittorrent、Transmission 等主流下载客户端",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />'
   },
   {
     title: "智能重命名整理",
+<<<<<<< HEAD
     description: "自动重命名和整理媒体文件，确保您的媒体库界面结构清晰有序",
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />'
   },
   {
     title: "媒体服务器兼容",
     description: "无缝集成 Infuse、Emby、网易爆米花 等主流观影软件，自动刷新媒体库",
+=======
+    description: "自动重命名和整理媒体文件，支持自定义命名格式，确保媒体库结构清晰有序",
+    iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />'
+  },
+  {
+    title: "媒体服务器集成",
+    description: "无缝集成 Plex、Emby、Jellyfin 等主流媒体服务器，自动刷新媒体库",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />'
   },
   {
     title: "多样化通知系统",
+<<<<<<< HEAD
     description: "支持微信、Telegram、Slack等多种通知方式，及时了解下载进度和系统状态",
+=======
+    description: "支持微信、Telegram、Slack等多种通知方式，及时了解整理进度和系统状态",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-5 5v-5zM4 19l5-5 5 5M4 7l5 5 5-5" />'
   }
 ])
@@ -493,6 +602,7 @@ const features = ref([
 // 插件亮点数据
 const pluginHighlights = ref([
   {
+<<<<<<< HEAD
     title: "即登录即用",
     description: "一秒登录，无需等待，立即观影",
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />'
@@ -500,16 +610,34 @@ const pluginHighlights = ref([
   {
     title: "多应用设计",
     description: "不固定应用，按需选择，避免审美疲劳",
+=======
+    title: "即插即用",
+    description: "一键安装，无需重启，立即生效",
+    iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />'
+  },
+  {
+    title: "模块化设计",
+    description: "功能独立，按需选择，避免臃肿",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />'
   },
   {
     title: "持续更新",
+<<<<<<< HEAD
     description: "活跃的我，影视资源持续更新",
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />'
   },
   {
     title: "求片友好",
     description: "完善的下载设计，易于自助求片",
+=======
+    description: "活跃的社区，插件持续优化升级",
+    iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />'
+  },
+  {
+    title: "开发友好",
+    description: "完善的 API，易于开发自定义插件",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     iconSvg: '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />'
   }
 ])
@@ -517,20 +645,35 @@ const pluginHighlights = ref([
 // 部署方式数据
 const deploymentMethods = ref([
   {
+<<<<<<< HEAD
     title: "本地存储",
     description: "直接存储在本地，适合拥有IPV6的用户",
+=======
+    title: "可执行文件",
+    description: "直接下载运行，适合 Widnows 用户",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     icon: "💻",
     command: "# 下载并运行\nhttps://github.com/developer-wlj/Windows-MoviePilot/releases"
   },
   {
+<<<<<<< HEAD
     title: "天翼网盘",
     description: "专为电信用户优化的观影方案",
+=======
+    title: "Docker 部署",
+    description: "容器化部署，适合服务器环境",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     icon: "🐳",
     command: "docker run -d \\\n  --name moviepilot \\\n  -p 3000:3000 \\\n  -v /path/to/config:/config \\\n  jxxghp/moviepilot-v2:latest"
   },
   {
+<<<<<<< HEAD
     title: "夸克网盘",
     description: "有VIP的加持，适合大多数用户观影",
+=======
+    title: "群晖 NAS",
+    description: "专为群晖用户优化的部署方案",
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
     icon: "📦",
     command: "# 通过群晖 Docker 套件\n# 或使用 https://spk7.imnks.com/ 套件源安装"
   }
@@ -538,11 +681,19 @@ const deploymentMethods = ref([
 
 // 集成服务数据
 const integrations = ref([
+<<<<<<< HEAD
   { name: "Infuse", icon: plexIcon },
   { name: "Emby", icon: embyIcon },
   { name: "Jellyfin", icon: jellyfinIcon },
   { name: "网易爆米花", icon: wangyiIcon },
   { name: "Vidhub", icon: vidhubIcon },
+=======
+  { name: "Plex", icon: plexIcon },
+  { name: "Emby", icon: embyIcon },
+  { name: "Jellyfin", icon: jellyfinIcon },
+  { name: "qBittorrent", icon: qbittorrentIcon },
+  { name: "Transmission", icon: transmissionIcon },
+>>>>>>> 8a0e0d2aa4aacfbd19e8fd7daa631b37ca2a7d57
   { name: "Wechat", icon: wechatIcon },
   { name: "Telegram", icon: telegramIcon },
   { name: "Slack", icon: slackIcon },
