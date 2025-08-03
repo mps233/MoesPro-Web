@@ -15,12 +15,12 @@ export default defineConfig({
         theme_color: '#1e293b',
         icons: [
           {
-            src: './src/assets/icon-192.png',
+            src: 'https://i.meee.com.tw/GC4lHxN.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: './src/assets/icon-512.png',
+            src: 'https://i.meee.com.tw/GC4lHxN.png',
             sizes: '512x512',
             type: 'image/png'
           }
