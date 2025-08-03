@@ -1,6 +1,6 @@
 
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900">
+  <div class="min-h-screen bg-gradient-to-br from-purple-1000 via-blue-900 to-indigo-900">
     <!-- Header -->
     <header class="relative z-10 bg-black/20 backdrop-blur-md border-b border-white/10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
