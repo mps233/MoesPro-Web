@@ -16,7 +16,7 @@
           <nav class="hidden md:flex space-x-8">
             <a href="#features" class="text-white/80 hover:text-white transition-colors">功能特性</a>
             <a href="https://status.moes.pro/" class="text-white/80 hover:text-white transition-colors">服务监控</a>
-            <a href="http://fn.moes.pro:8091" class="text-white/80 hover:text-white transition-colors">立即观看</a>
+            <a href="https://zj.moes.pro" class="text-white/80 hover:text-white transition-colors">立即观看</a>
             <a href="#features" class="text-white/80 hover:text-white transition-colors">文档</a>
             <a href="https://github.com/mps233/MoesPro-Web" class="text-white/80 hover:text-white transition-colors flex items-center">
               <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 24 24">
@@ -53,7 +53,7 @@
             </p>
             <div class="flex flex-row gap-4 justify-center lg:justify-start">
               <a 
-                href="http://fn.moes.pro:8091"
+                href="https://zj.moes.pro"
                 target="_blank"
                 class="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-semibold rounded-xl hover:bg-gray-100 transition-all duration-200 shadow-xl group"
               >
@@ -212,7 +212,7 @@
         
         <div class="text-center mt-10">
           <a 
-            href="http://fn.moes.pro:8091"
+            href="https://zj.moes.pro"
             class="inline-flex items-center px-6 py-3 bg-white/20 backdrop-blur-md text-white font-semibold rounded-xl hover:bg-white/30 transition-all duration-200 border border-white/20"
           >
             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -301,7 +301,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="http://fn.moes.pro:8091"
+              href="https://zj.moes.pro"
               class="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-semibold rounded-xl hover:bg-gray-100 transition-all duration-200 shadow-xl group"
             >
               <svg class="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
